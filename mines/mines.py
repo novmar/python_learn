@@ -2,7 +2,7 @@
 from pprint import pprint
 import random
 
-class pysqorky:
+class mines:
 
 
     def __init__(self,x,y,mines):
@@ -72,7 +72,7 @@ class pysqorky:
 
 
 
-hra=pysqorky(10,15,50);
+hra=mines(10,15,50);
 
 hra.place_mines()
 hra.fill_field()
